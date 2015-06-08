@@ -31,7 +31,8 @@ RUN apt-get install -y --force-yes \
     libriemann-client-dev \
     libssl-dev \
     manpages-dev \
-    zlib1g-dev
+    zlib1g-dev \
+    xsltproc
 
 RUN add-apt-repository -y ppa:webupd8team/java
 RUN apt-get update
