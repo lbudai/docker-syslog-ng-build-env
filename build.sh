@@ -11,6 +11,7 @@ cd syslog-ng
  --with-libmongo-client=internal \
  --enable-all-modules \
  --disable-sun-streams \
+ --enable-manpages \
  --enable-shared \
  --enable-dynamic-linking \
  --with-python=2.7 && \
